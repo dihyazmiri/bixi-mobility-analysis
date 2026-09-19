@@ -1,2 +1,21 @@
+# Data
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
 # PyCharm
 .idea/
+
+# Power BI
+*.pbix.tmp
+
+# OS
+.DS_Store
